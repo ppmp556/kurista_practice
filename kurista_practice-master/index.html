@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="l-header">
         <div class="header-title">
             <a href="index.html">
                 クリ☆スタ
@@ -134,11 +134,55 @@
                 <h2>お問い合わせ</h2>
             </div>
             <div class="contact-wrap">
+                <form action="index.html" method="post">
 
-
-                
+                    <div class="contact-form-item">
+                        <p class="contact-form-item-name">
+                            担当者名
+                        </p>
+                        <div class="contact-form-item-input">
+                            <input type="text" class="form-input">
+                            
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <p class="contact-form-item-name">
+                            電話番号
+                        </p>
+                        <div class="contact-form-item-input">
+                            <input type="tel" class="form-input">
+    
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <p class="contact-form-item-name">
+                            メールアドレス
+                        </p>
+                        <div class="contact-form-item-input">
+                            <input type="email" class="form-input">
+    
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <p class="contact-form-item-name">
+                            お問い合わせ内容
+                        </p>
+                        <div class="contact-form-item-input">
+                          <textarea name="name"   cols="80" rows="10" class="form-textarea"></textarea>
+    
+                        </div>
+                    </div>
+                    <input type="submit" value="送信する" class="form-submit">
+                </form>    
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="footer-wrap">
+            <small class="footer-copyright">
+                &copy;crest.design all rights reserved
+            </small>
+        </div>
+    </footer>
 </body>
 </html>

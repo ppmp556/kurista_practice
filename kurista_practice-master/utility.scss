@@ -5,3 +5,11 @@ margin,padding,font-size,colorなど付与するのに使用
 接頭辞として u-をつける
 
 ***/
+
+$block: #181310;
+$white: #ffffff;
+
+.u-bg {
+    background-color: $block;
+    color: $white;
+}

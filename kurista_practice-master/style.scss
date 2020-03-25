@@ -3,3 +3,38 @@
 @import "object.scss";
 @import "utility.scss";
 
+/***ヘッダー***/
+
+.header-title {
+    font-size: 26px;
+    font-family: "Roboto";
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    width: 269px;
+}
+
+
+/***ビジュアル**/
+.kv-main {
+    background: url("/img/fv-bgi@2x.jpg");
+    width: 100%;
+    height: 740px;
+}
+
+.kv-title {
+    
+    text-align: center;
+    color: $white;
+    font-size: 50px;
+    font-family: "Roboto";
+    border: 1px solid #707070;
+    width: 449px;
+    height: 136px;
+    position: absolute;
+
+    margin: auto;
+}

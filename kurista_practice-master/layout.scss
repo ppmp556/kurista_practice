@@ -3,10 +3,25 @@
 それぞれの要素固有のスタイル
 ラッパーとしての幅や高さを決定するクラス
 
-接頭辞として　l-をつける
+
+接頭辞として　ly-をつける
+***/
+/***
+ヘッダー、body、メイン、サイド、フッターなど大きなレイアウトを
+形成する要素に使用する
+
+gird,flex,width,margin,padding,floatなどレイアウトに関する
+スタイリングだけ行う
+
+コンテンツが入る枠のみ
+
 ***/
 
-.l-header {
+
+/**ヘッダー**/
+
+
+.ly_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,14 +30,62 @@
     padding: 0 120px;
     
 }
-.l-header-nav {
+.ly_headerNav {
     display: flex;
     justify-content: space-between;
 }
 
+/**キービジュアル**/
+
+.ly_kvMain {
+    background: url("/img/fv-bgi@2x.jpg") no-repeat;
+    width: 100%;
+    height: 740px;
+    
+
+}
+
+
+.ly_wrapper {
+    width: 1030px;
+    margin: 0 auto;
+}
 
 
 
+/***about**/
+
+.ly_about {
+    padding-top: 100px;
+    
+
+    .ly_about_wrapper {
+        padding-top: 70px;
+    
+    }
+}
+
+/**service**/
+
+.ly_service {
+    padding-top: 150px;
+}
 
 
+.ly_newsWrapper {
+    display: flex;
+    justify-content: space-between;
+    
+  
+    margin-top: 70px;
+    
+}
 
+
+.ly_contact {
+  padding: 150px 0 50px;
+}
+
+.ly_contact_form_item{
+    
+}

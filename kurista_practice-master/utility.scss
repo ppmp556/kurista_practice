@@ -9,7 +9,21 @@ margin,padding,font-size,colorなど付与するのに使用
 $block: #181310;
 $white: #ffffff;
 
-.u-bg {
+.u_bg {
     background-color: $block;
     color: $white;
 }
+.u_bg2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Noto Sans CIK JP";
+    letter-spacing: 2.4;
+}
+
+
+
+
+.u_service_text {
+    padding-top: 40px;
+}
+

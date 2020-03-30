@@ -4,3 +4,85 @@
 
 
 ***/
+
+.content_title {
+    font-size: 36px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.aboutText {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Noto Sans CIK JP";
+    letter-spacing: 14 * 0.5;
+    padding-top: 40px;
+}
+
+
+
+
+
+.service_images {
+    width: 480px;
+    height: 240px;
+
+}
+
+.serviceBox {
+    text-align: left;
+    width: 480px;
+    height: 205px;
+
+    
+
+    .serviceBox_title {
+        font-size: 24px;
+        font-family: "Noto Sans CIK JP";
+        font-weight: bold;
+        letter-spacing: 2.4;
+        &:nth-child(even) {
+            text-align: left;
+        
+    
+        }
+    }
+    
+    .serviceBox_text {
+        font-size: 14px;
+        font-family: "Noto Sans CIK JP";
+        font-weight: bold;
+        letter-spacing: 7;
+        width: 100%;
+
+        &:nth-child(even) {
+            text-align: left;
+        
+    
+        }
+    }
+}
+
+/**news**/
+.news_images {
+      width: 320px;
+      height: 200px;
+   }
+
+.newsBox {
+    width: 100%;
+
+    .news_text {
+       
+        text-align: left;
+       margin: 25px 32px 25px 34px;
+       font-size: 13px;
+       font-family: "Hiragino Kaku Gothic ProN";
+       letter-spacing: 0.05em;
+       line-height: 1.9;
+     
+    }
+}
+

@@ -84,8 +84,15 @@ gird,flex,width,margin,padding,floatなどレイアウトに関する
 
 .ly_contact {
   padding: 150px 0 50px;
+
+  .ly_contact_wrapper {
+      max-width: 700px;
+  }
+  
 }
 
 .ly_contact_form_item{
-    
+    width: 50%;
+    margin: 50px 0 auto;
 }
+

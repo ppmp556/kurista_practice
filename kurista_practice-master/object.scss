@@ -86,3 +86,23 @@
     }
 }
 
+
+.contact_form_itemName {
+    font-size: 16px;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.submit_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_submit {
+    border-radius: 51px;
+    width: 235px;
+    height: 59px;
+    background-color: #181310;
+    color: #fff;
+    font-weight: bold;
+}
